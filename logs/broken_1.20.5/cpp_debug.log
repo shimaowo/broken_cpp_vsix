@@ -1,0 +1,561 @@
+loggingLevel: Debug
+LSP: (received) cpptools/initialize (id: 1)
+LSP: (invoked) cpptools/initialize (id: 1)
+cpptools version (TypeScript): 1.20.5
+cpptools version (native): 1.20.5.0
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+LSP: Sending response (id: 1)
+LSP: (received) cpptools/queryCompilerDefaults (id: 2)
+LSP: (invoked) cpptools/queryCompilerDefaults (id: 2)
+LSP: Sending response (id: 2)
+LSP: (received) cpptools/queryCompilerDefaults (id: 3)
+LSP: (invoked) cpptools/queryCompilerDefaults (id: 3)
+LSP: (received) cpptools/didChangeCppProperties (id: 4)
+LSP: (received) cpptools/didChangeSettings
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+LSP: (received) cpptools/didChangeSettings
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+LSP: Sending response (id: 3)
+LSP: (invoked) cpptools/didChangeCppProperties (id: 4)
+LSP: (received) cpptools/didChangeSettings
+LSP: (received) cpptools/didChangeSettings
+LSP: (received - deferred) textDocument/didOpen: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+enabling full-text triggers
+Code browsing service initialized
+Attempting to get defaults from C++ compiler in "compilerPath" property: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+Attempting to get defaults from C compiler in "compilerPath" property: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+  Folder: F:\DEV\PROJECTS\BROKEN_CPP_VSIX\ will be indexed
+LSP: (queued) textDocument/didOpen: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: Sending response (id: 4)
+Custom browse configuration received: {
+  "browsePath": [
+    "f:/dev/projects/broken_cpp_vsix/build/cmakefiles/fdea970f7d9bb78705e953a5ca42a8fa",
+    "f:/dev/projects/broken_cpp_vsix/src"
+  ],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (invoked) cpptools/didChangeSettings
+Discovering files...
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+LSP: (invoked) cpptools/didChangeSettings
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+LSP: (invoked) cpptools/didChangeSettings
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+LSP: (invoked) cpptools/didChangeSettings
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+LSP: (invoked) textDocument/didOpen: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  Processing folder (recursive): F:\DEV\PROJECTS\BROKEN_CPP_VSIX\
+  Discovering files: 4 file(s) processed
+  2 file(s) removed from database
+Done discovering files.
+Populating include completion cache.
+Parsing remaining files...
+  Parsing: 0 files(s) processed
+Done parsing remaining files.
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 5)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 5)
+LSP: Sending response (id: 5)
+LSP: (received) cpptools/queryCompilerDefaults (id: 6)
+LSP: (invoked) cpptools/queryCompilerDefaults (id: 6)
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+LSP: Sending response (id: 6)
+LSP: (received) cpptools/didChangeCustomBrowseConfiguration
+LSP: (invoked) cpptools/didChangeCustomBrowseConfiguration
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 7)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 7)
+LSP: Sending response (id: 7)
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Populating file name cache...
+Done populating filename cache. Elapsed time: 0 ms
+Resolving recursive includes...
+Done resolving recursive includes.
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\DEV\PROJECTS\BROKEN_CPP_VSIX
+  define: _DEBUG
+  define: UNICODE
+  define: _UNICODE
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+Error squiggles will be disabled in: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Update IntelliSense time (sec): 0.014
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 8)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 8)
+LSP: Sending response (id: 8)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 9)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 9)
+LSP: Sending response (id: 9)
+LSP: (received) cpptools/getDocumentSymbols: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 10)
+LSP: (invoked) cpptools/getDocumentSymbols: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 10)
+LSP: Sending response (id: 10)
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build
+Custom configuration provider 'CMake Tools' registered
+LSP: (received) cpptools/didChangeCppProperties (id: 11)
+LSP: (invoked) cpptools/didChangeCppProperties (id: 11)
+LSP: (received) cpptools/pauseParsing
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Shutting down IntelliSense server: F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+  Folder: F:\DEV\PROJECTS\BROKEN_CPP_VSIX\ will be indexed
+LSP: Sending response (id: 11)
+LSP: (invoked) cpptools/pauseParsing
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 12)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 12)
+LSP: Sending response (id: 12)
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/query
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/query
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/query/client-vscode
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/query/client-vscode
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/query/client-vscode/query.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/query/client-vscode/query.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeSystem.cmake
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath.vcxproj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeOutput.log
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeSystem.cmake
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath.vcxproj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeOutput.log
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Populating file name cache...
+Done populating filename cache. Elapsed time: 0 ms
+Resolving recursive includes...
+Done resolving recursive includes.
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 13)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 13)
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\DEV\PROJECTS\BROKEN_CPP_VSIX
+  define: _DEBUG
+  define: UNICODE
+  define: _UNICODE
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+LSP: Sending response (id: 13)
+Error squiggles will be disabled in: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/CompilerIdCXX.vcxproj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/tmp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath.txt
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/CompilerIdCXX.vcxproj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug/VCTargetsPath.recipe
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug/VCTargetsPath.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/x64
+  tag parsing file: F:\Dev\Projects\broken_cpp_vsix\build\CMakeFiles\3.21.4\CompilerIdCXX\CMakeCXXCompilerId.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/x64/Debug
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/tmp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath.txt
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug/VCTargetsPath.recipe
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug/VCTargetsPath.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/VCTargetsPath/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/x64
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/x64/Debug
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 14)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 14)
+LSP: Sending response (id: 14)
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/unsuccessfulbuild
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/unsuccessfulbuild
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 15)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 15)
+LSP: Sending response (id: 15)
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 16)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 16)
+LSP: Sending response (id: 16)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 17)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 17)
+LSP: Sending response (id: 17)
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeRCCompiler.cmake
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeRCCompiler.cmake
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/CompilerIdCXX.exe
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/CompilerIdCXX.exe
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/Cl.items.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.secondary.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/Cl.items.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj.filters
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.secondary.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.sln
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeCache.txt
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj.filters
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.sln
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/generate.stamp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeCache.txt
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/generate.stamp.depend
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeLists.txt
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj.filters
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/generate.stamp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmake_install.cmake
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/generate.stamp.depend
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmake_install.cmake.tmpeb8b7
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.sln.tmp06c9b
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeLists.txt
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt.tmp91db0
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/unsuccessfulbuild
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj.filters
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmake_install.cmake
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmake_install.cmake.tmpeb8b7
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.sln.tmp06c9b
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt.tmp91db0
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/unsuccessfulbuild
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/Debug
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/Debug
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/cmTC_2c227.lastbuildstate
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/cmTC_2c227.lastbuildstate
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/unsuccessfulbuild
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/unsuccessfulbuild
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/CMakeCXXCompilerABI.obj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/CMakeCXXCompilerABI.obj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/CL.command.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/CL.command.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/CL.read.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/CL.write.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/CL.read.1.tlog
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/vc143.pdb
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/cmTC_2c227.tlog/CL.write.1.tlog
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir/Debug/vc143.pdb
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 18)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 18)
+LSP: Sending response (id: 18)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 19)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 19)
+LSP: Sending response (id: 19)
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Custom browse configuration received: {
+  "browsePath": [
+    "f:/dev/projects/broken_cpp_vsix/build/cmakefiles/fdea970f7d9bb78705e953a5ca42a8fa",
+    "f:/dev/projects/broken_cpp_vsix/src"
+  ],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (received) cpptools/didChangeCustomBrowseConfiguration
+LSP: (invoked) cpptools/didChangeCustomBrowseConfiguration
+LSP: (received) cpptools/clearCustomConfigurations
+Attempting to get defaults from C++ compiler in "compilerPath" property: 'f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe'
+LSP: (received) cpptools/resumeParsing
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+LSP: (received) cpptools/queryTranslationUnitSource: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 20)
+LSP: (invoked) cpptools/queryTranslationUnitSource: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 20)
+Populating file name cache...
+  Folder: F:\DEV\PROJECTS\BROKEN_CPP_VSIX\BUILD\CMAKEFILES\FDEA970F7D9BB78705E953A5CA42A8FA\ will be indexed
+  Folder: F:\DEV\PROJECTS\BROKEN_CPP_VSIX\SRC\ will be indexed
+LSP: (invoked) cpptools/clearCustomConfigurations
+Discovering files...
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Shutting down IntelliSense server: F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+Done populating filename cache. Elapsed time: 1 ms
+LSP: (invoked) cpptools/resumeParsing
+LSP: Sending response (id: 20)
+Custom configurations received:
+  uri: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  config: {
+  "includePath": [],
+  "defines": [],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (received) cpptools/didChangeCustomConfiguration
+LSP: (invoked) cpptools/didChangeCustomConfiguration
+Received a custom configuration for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Attempting to get defaults from C++ compiler in "compilerPath" property: 'f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe'
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+No suitable compiler found. Please set the "compilerPath" in c_cpp_properties.json.
+  Processing folder (recursive): F:\DEV\PROJECTS\BROKEN_CPP_VSIX\BUILD\CMAKEFILES\FDEA970F7D9BB78705E953A5CA42A8FA\
+  Processing folder (recursive): F:\DEV\PROJECTS\BROKEN_CPP_VSIX\SRC\
+  Discovering files: 2 file(s) processed
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+  45 file(s) removed from database
+Done discovering files.
+Parsing open files...
+Populating include completion cache.
+Parsing remaining files...
+  Parsing: 0 files(s) processed
+Done parsing remaining files.
+Done parsing open files.
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Populating file name cache...
+Done populating filename cache. Elapsed time: 0 ms
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\DEV\PROJECTS\BROKEN_CPP_VSIX
+  define: WIN32
+  define: _WINDOWS
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+Error squiggles will be disabled in: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/cache-v2-806bb44fdb021ec21aae.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/cache-v2-806bb44fdb021ec21aae.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/cmakeFiles-v1-ff6e0a7d5b3cf6b5b72f.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/cmakeFiles-v1-ff6e0a7d5b3cf6b5b72f.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/codemodel-v2-85f636acb0a7f3a13e61.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/codemodel-v2-85f636acb0a7f3a13e61.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-MinSizeRel-d0094a50bb2071803777.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-MinSizeRel-d0094a50bb2071803777.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/index-2024-05-09T20-11-15-0751.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-Debug-6f4abf293f63f69af9b4.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-6f4abf293f63f69af9b4.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-6f4abf293f63f69af9b4.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/index-2024-05-09T20-11-15-0751.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-Release-6f4abf293f63f69af9b4.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-Debug-48a0730ca311d6e8f81e.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-Debug-6f4abf293f63f69af9b4.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-MinSizeRel-48a0730ca311d6e8f81e.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-RelWithDebInfo-48a0730ca311d6e8f81e.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-6f4abf293f63f69af9b4.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-Release-48a0730ca311d6e8f81e.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-6f4abf293f63f69af9b4.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ALL_BUILD-Release-6f4abf293f63f69af9b4.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-Debug-48a0730ca311d6e8f81e.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-MinSizeRel-48a0730ca311d6e8f81e.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-Debug-5f4f369ba5b0ea9a3aac.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-RelWithDebInfo-48a0730ca311d6e8f81e.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-MinSizeRel-b8e6c16da85e2cc85e19.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-ZERO_CHECK-Release-48a0730ca311d6e8f81e.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-RelWithDebInfo-98b72a3cbde8fc0905aa.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-Debug-5f4f369ba5b0ea9a3aac.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-MinSizeRel-b8e6c16da85e2cc85e19.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-RelWithDebInfo-98b72a3cbde8fc0905aa.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-Release-ae9122b344583d8da28c.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/target-hello-Release-ae9122b344583d8da28c.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/toolchains-v1-3d9c0ee18cb879690d10.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/toolchains-v1-3d9c0ee18cb879690d10.json
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ALL_BUILD.vcxproj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ALL_BUILD.vcxproj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ALL_BUILD.vcxproj.filters
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeCache.txt
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ALL_BUILD.vcxproj.filters
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeDetermineCompilerABI_CXX.bin
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/TargetDirectories.txt
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeCache.txt
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/cmake.check_cache
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/3.21.4/CMakeDetermineCompilerABI_CXX.bin
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/fdea970f7d9bb78705e953a5ca42a8fa
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/fdea970f7d9bb78705e953a5ca42a8fa/generate.stamp.rule
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/TargetDirectories.txt
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/generate.stamp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/cmake.check_cache
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/generate.stamp.depend
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/generate.stamp.list
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/fdea970f7d9bb78705e953a5ca42a8fa
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/fdea970f7d9bb78705e953a5ca42a8fa/generate.stamp.rule
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/HelloWorld.sln
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ZERO_CHECK.vcxproj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/generate.stamp
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/generate.stamp.depend
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ZERO_CHECK.vcxproj.filters
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/cmake_install.cmake
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/generate.stamp.list
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/hello.vcxproj
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/hello.vcxproj.filters
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/HelloWorld.sln
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/Debug
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ZERO_CHECK.vcxproj
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeCache.txt
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/ZERO_CHECK.vcxproj.filters
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeLists.txt
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/cmake_install.cmake
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/hello.vcxproj
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmake_install.cmake
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/hello.vcxproj.filters
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.sln
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/Debug
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeFiles
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj.filters
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeCache.txt
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj.filters
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMakeLists.txt
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.dir
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmake_install.cmake
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.sln
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/ALL_BUILD.vcxproj.filters
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 21)
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/CMakeFiles/CMakeTmp/cmTC_2c227.vcxproj.filters
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 21)
+LSP: Sending response (id: 21)
+LSP: $/cancelRequest (<unknown/completed>, id: 21)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 22)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 22)
+LSP: Sending response (id: 22)
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 23)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 23)
+LSP: Sending response (id: 23)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 24)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 24)
+LSP: Sending response (id: 24)
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\DEV\PROJECTS\BROKEN_CPP_VSIX
+  define: WIN32
+  define: _WINDOWS
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Shutting down IntelliSense server: F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+Update IntelliSense time (sec): 5.053
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Populating file name cache...
+Done populating filename cache. Elapsed time: 1 ms
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 25)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 25)
+LSP: Sending response (id: 25)
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\DEV\PROJECTS\BROKEN_CPP_VSIX
+  define: WIN32
+  define: _WINDOWS
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+Error squiggles will be disabled in: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Update IntelliSense time (sec): 0.037
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 26)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 26)
+LSP: Sending response (id: 26)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 27)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 27)
+LSP: Sending response (id: 27)
+Database safe to open.

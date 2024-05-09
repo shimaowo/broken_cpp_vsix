@@ -1,0 +1,58 @@
+-------- Diagnostics - 5/9/2024, 12:54:14 PM
+Version: 1.20.5
+Current Configuration:
+{
+    "name": "Win32",
+    "includePath": [
+        "f:/Dev/Projects/broken_cpp_vsix/**"
+    ],
+    "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+    ],
+    "intelliSenseModeIsExplicit": false,
+    "cStandardIsExplicit": false,
+    "cppStandardIsExplicit": false,
+    "mergeConfigurations": false,
+    "compilerPath": "f:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe",
+    "compilerPathIsExplicit": true,
+    "configurationProvider": "ms-vscode.cmake-tools",
+    "browse": {
+        "path": [
+            "f:/Dev/Projects/broken_cpp_vsix/**",
+            "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "F:/Users/shimaowo/AppData/Local/workspaceStorage/broken_cpp_vsix/VC.DB"
+    }
+}
+Custom browse configuration: 
+{
+    "browsePath": [
+        "f:/dev/projects/broken_cpp_vsix/build/cmakefiles/fdea970f7d9bb78705e953a5ca42a8fa",
+        "f:/dev/projects/broken_cpp_vsix/src"
+    ],
+    "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+    "compilerArgs": [],
+    "compilerFragments": [
+        "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+        "-std:c++17"
+    ]
+}
+cpptools version (native): 1.20.5.0
+Translation Unit Mappings:
+[ F:\Dev\Projects\broken_cpp_vsix\src\main.cpp - source TU]:
+Translation Unit Configurations:
+[ F:\Dev\Projects\broken_cpp_vsix\src\main.cpp ]:
+    Process ID: 16948
+    Memory Usage: 51 MB
+    Defines:
+        WIN32
+        _WINDOWS
+    Standard Version: ms_c++17
+    IntelliSense Mode: windows-msvc-x64
+Total Memory Usage: 51 MB
+
+------- Workspace parsing diagnostics -------
+Number of files discovered (not excluded): 2

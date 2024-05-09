@@ -1,0 +1,340 @@
+loggingLevel: Debug
+LSP: (received) cpptools/initialize (id: 1)
+LSP: (invoked) cpptools/initialize (id: 1)
+cpptools version (TypeScript): 1.19.9
+cpptools version (native): 1.19.9.0
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+LSP: Sending response (id: 1)
+LSP: (received) cpptools/queryCompilerDefaults (id: 2)
+LSP: (invoked) cpptools/queryCompilerDefaults (id: 2)
+LSP: (received) cpptools/queryCompilerDefaults (id: 3)
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+LSP: Sending response (id: 2)
+LSP: (invoked) cpptools/queryCompilerDefaults (id: 3)
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+LSP: Sending response (id: 3)
+LSP: (received) cpptools/didChangeCppProperties (id: 4)
+LSP: (invoked) cpptools/didChangeCppProperties (id: 4)
+LSP: (received - deferred) cpptools/didChangeVisibleTextEditors
+enabling full-text triggers
+Code browsing service initialized
+Attempting to get defaults from C++ compiler in "compilerPath" property: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+Attempting to get defaults from C compiler in "compilerPath" property: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/CPPWINRT/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/SHARED/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UCRT/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UM/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/WINRT/ will be indexed
+  Folder: F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/ATLMFC/INCLUDE/* will be indexed
+  Folder: F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/INCLUDE/* will be indexed
+  Folder: F:/DEV/PROJECTS/BROKEN_CPP_VSIX/ will be indexed
+LSP: (queued) cpptools/didChangeVisibleTextEditors
+LSP: Sending response (id: 4)
+Custom browse configuration received: {
+  "browsePath": [
+    "f:/dev/projects/broken_cpp_vsix/build/cmakefiles/fdea970f7d9bb78705e953a5ca42a8fa",
+    "f:/dev/projects/broken_cpp_vsix/src"
+  ],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+Discovering files...
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/CPPWINRT/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/SHARED/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UCRT/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UM/
+LSP: (received) cpptools/didChangeSettings
+LSP: (invoked) cpptools/didChangeSettings
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/WINRT/
+  Processing folder (non-recursive): F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/ATLMFC/INCLUDE
+  Processing folder (non-recursive): F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/INCLUDE
+  Processing folder (recursive): F:/DEV/PROJECTS/BROKEN_CPP_VSIX/
+  Discovering files: 4954 file(s) processed
+  0 file(s) removed from database
+Done discovering files.
+Populating include completion cache.
+Parsing remaining files...
+  tag parsing file: F:\Dev\Projects\broken_cpp_vsix\build\CMakeFiles\3.21.4\CompilerIdCXX\CMakeCXXCompilerId.cpp
+  Parsing: 1 files(s) processed
+Done parsing remaining files.
+LSP: (received) textDocument/didOpen: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (invoked) textDocument/didOpen: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: Message ignored due to no registered handler: $/setTrace
+LSP: Message ignored due to no registered handler: $/setTrace
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 5)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 5)
+LSP: Sending response (id: 5)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 6)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 6)
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 7)
+LSP: Sending response (id: 6)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 7)
+LSP: Sending response (id: 7)
+LSP: (received) cpptools/didChangeSettings
+LSP: (invoked) cpptools/didChangeSettings
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+LSP: (received) cpptools/didChangeSettings
+LSP: (invoked) cpptools/didChangeSettings
+Autocomplete is enabled.
+Error squiggles are enabled if all header dependencies are resolved.
+Hover is enabled.
+IntelliSense Engine = default.
+Enhanced Colorization is enabled.
+LSP: $/cancelRequest (<unknown/completed>, id: 5)
+LSP: $/cancelRequest (<unknown/completed>, id: 6)
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 8)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 8)
+LSP: Sending response (id: 8)
+LSP: (received) cpptools/queryCompilerDefaults (id: 9)
+LSP: (invoked) cpptools/queryCompilerDefaults (id: 9)
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+Unable to configure for compiler cl.exe.
+Attempting to get defaults from compiler found on the machine: 'f:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64\cl.exe'
+LSP: Sending response (id: 9)
+LSP: (received) cpptools/didChangeCustomBrowseConfiguration
+LSP: (invoked) cpptools/didChangeCustomBrowseConfiguration
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 10)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 10)
+LSP: Sending response (id: 10)
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Populating file name cache...
+Done populating filename cache. Elapsed time: 3 ms
+Resolving recursive includes...
+  tag parsing file: F:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\CodeAnalysis\sourceannotations.h
+Done resolving recursive includes.
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.39.33519\INCLUDE
+  include: F:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.39.33519\ATLMFC\INCLUDE
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\WINRT
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\CPPWINRT
+  define: _DEBUG
+  define: UNICODE
+  define: _UNICODE
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+Update IntelliSense time (sec): 0.495
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 11)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 11)
+LSP: Sending response (id: 11)
+LSP: (received) cpptools/getDocumentSymbols: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 12)
+LSP: (invoked) cpptools/getDocumentSymbols: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 12)
+LSP: Sending response (id: 12)
+  tag parsing file: F:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\CodeAnalysis\sourceannotations.h
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+LSP: (received) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 13)
+LSP: (invoked) cpptools/getCodeActions: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 13)
+LSP: Sending response (id: 13)
+Custom configuration provider 'CMake Tools' registered
+LSP: (received) cpptools/didChangeCppProperties (id: 14)
+LSP: (invoked) cpptools/didChangeCppProperties (id: 14)
+Intellisense update pending for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Shutting down IntelliSense server: F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+LSP: (received) cpptools/pauseParsing
+LSP: (received) cpptools/clearCustomConfigurations
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/CPPWINRT/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/SHARED/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UCRT/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UM/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/WINRT/ will be indexed
+  Folder: F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/ATLMFC/INCLUDE/* will be indexed
+  Folder: F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/INCLUDE/* will be indexed
+  Folder: F:/DEV/PROJECTS/BROKEN_CPP_VSIX/ will be indexed
+LSP: Sending response (id: 14)
+Custom browse configuration received: {
+  "browsePath": [
+    "f:/dev/projects/broken_cpp_vsix/build/cmakefiles/fdea970f7d9bb78705e953a5ca42a8fa",
+    "f:/dev/projects/broken_cpp_vsix/src"
+  ],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (invoked) cpptools/pauseParsing
+LSP: (invoked) cpptools/clearCustomConfigurations
+LSP: (received) cpptools/didChangeCustomBrowseConfiguration
+LSP: (invoked) cpptools/didChangeCustomBrowseConfiguration
+Attempting to get defaults from C++ compiler in "compilerPath" property: 'f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe'
+  Folder: F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/INCLUDE/* will be indexed
+  Folder: F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/ATLMFC/INCLUDE/* will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UM/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UCRT/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/SHARED/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/WINRT/ will be indexed
+  Folder: F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/CPPWINRT/ will be indexed
+  Folder: F:/DEV/PROJECTS/BROKEN_CPP_VSIX/BUILD/CMAKEFILES/FDEA970F7D9BB78705E953A5CA42A8FA/ will be indexed
+  Folder: F:/DEV/PROJECTS/BROKEN_CPP_VSIX/SRC/ will be indexed
+Discovering files...
+LSP: (received) cpptools/clearCustomConfigurations
+LSP: (invoked) cpptools/clearCustomConfigurations
+LSP: (received) cpptools/resumeParsing
+LSP: (invoked) cpptools/resumeParsing
+  Processing folder (non-recursive): F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/INCLUDE
+LSP: (received) cpptools/queryTranslationUnitSource: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 15)
+LSP: (invoked) cpptools/queryTranslationUnitSource: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 15)
+Populating file name cache...
+Done populating filename cache. Elapsed time: 4 ms
+LSP: Sending response (id: 15)
+Custom configurations received:
+  uri: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  config: {
+  "includePath": [],
+  "defines": [],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+  uri: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  config: {
+  "includePath": [],
+  "defines": [],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (received) cpptools/didChangeCustomConfiguration
+LSP: (invoked) cpptools/didChangeCustomConfiguration
+Received a custom configuration for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Attempting to get defaults from C++ compiler in "compilerPath" property: 'f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe'
+Received a custom configuration for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  Processing folder (non-recursive): F:/PROGRAM FILES/MICROSOFT VISUAL STUDIO/2022/COMMUNITY/VC/TOOLS/MSVC/14.39.33519/ATLMFC/INCLUDE
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UM/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/UCRT/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/SHARED/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/WINRT/
+  Processing folder (recursive): F:/WINDOWS KITS/10/INCLUDE/10.0.19041.0/CPPWINRT/
+  Processing folder (recursive): F:/DEV/PROJECTS/BROKEN_CPP_VSIX/BUILD/CMAKEFILES/FDEA970F7D9BB78705E953A5CA42A8FA/
+  Processing folder (recursive): F:/DEV/PROJECTS/BROKEN_CPP_VSIX/SRC/
+  Discovering files: 4891 file(s) processed
+  64 file(s) removed from database
+Done discovering files.
+Parsing open files...
+Populating include completion cache.
+Parsing remaining files...
+  Parsing: 0 files(s) processed
+Done parsing remaining files.
+Done parsing open files.
+Custom browse configuration received: {
+  "browsePath": [
+    "f:/dev/projects/broken_cpp_vsix/build/cmakefiles/fdea970f7d9bb78705e953a5ca42a8fa",
+    "f:/dev/projects/broken_cpp_vsix/src"
+  ],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (received) cpptools/didChangeCustomBrowseConfiguration
+LSP: (invoked) cpptools/didChangeCustomBrowseConfiguration
+LSP: (received) cpptools/clearCustomConfigurations
+LSP: (invoked) cpptools/clearCustomConfigurations
+LSP: (received) cpptools/resumeParsing
+LSP: (invoked) cpptools/resumeParsing
+LSP: (received) cpptools/queryTranslationUnitSource: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 16)
+LSP: (invoked) cpptools/queryTranslationUnitSource: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 16)
+Populating file name cache...
+Done populating filename cache. Elapsed time: 2 ms
+LSP: Sending response (id: 16)
+Custom configurations received:
+  uri: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  config: {
+  "includePath": [],
+  "defines": [],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+  uri: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+  config: {
+  "includePath": [],
+  "defines": [],
+  "compilerPath": "f:/program files/microsoft visual studio/2022/community/vc/tools/msvc/14.39.33519/bin/hostx64/x64/cl.exe",
+  "compilerArgs": [],
+  "compilerFragments": [
+    "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+    "-std:c++17"
+  ]
+}
+LSP: (received) cpptools/didChangeCustomConfiguration
+LSP: (invoked) cpptools/didChangeCustomConfiguration
+Received a custom configuration for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Received a custom configuration for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (received) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/index-2024-05-09T20-39-49-0352.json
+LSP: (invoked) cpptools/fileCreated: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/index-2024-05-09T20-39-49-0352.json
+LSP: (received) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/index-2024-05-09T20-39-35-0685.json
+LSP: (invoked) cpptools/fileDeleted: file:///f%3A/Dev/Projects/broken_cpp_vsix/build/.cmake/api/v1/reply/index-2024-05-09T20-39-35-0685.json
+IntelliSense update scheduled and TU acquisition started for: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+Populating file name cache...
+Done populating filename cache. Elapsed time: 3 ms
+sending compilation args for F:\Dev\Projects\broken_cpp_vsix\src\main.cpp
+  include: F:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.39.33519\INCLUDE
+  include: F:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.39.33519\ATLMFC\INCLUDE
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UM
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\UCRT
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\SHARED
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\WINRT
+  include: F:\WINDOWS KITS\10\INCLUDE\10.0.19041.0\CPPWINRT
+  define: _DEBUG
+  define: _MT
+  define: _DLL
+  define: WIN32
+  define: _WINDOWS
+  stdver: ms_c++17
+  intelliSenseMode: windows-msvc-x64
+Update IntelliSense time (sec): 0.375
+LSP: (received) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 17)
+LSP: (invoked) cpptools/getFoldingRanges: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp (id: 17)
+LSP: Sending response (id: 17)
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+LSP: (received) cpptools/didChangeVisibleTextEditors
+LSP: (invoked) cpptools/didChangeVisibleTextEditors
+Database safe to open.
+LSP: (received) cpptools/didChangeActiveEditor: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
+LSP: (invoked) cpptools/didChangeActiveEditor: file:///f%3A/Dev/Projects/broken_cpp_vsix/src/main.cpp
